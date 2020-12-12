@@ -182,13 +182,25 @@ body {
 
 .main h1 {
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .main p {
   font-size: 1.3rem;
+  color: hsl(227, 10%, 46%);
 }
 
 .num1 {
-  font-weight: normal;
+  font-weight: bold;
+}
+
+.bottom {
+  width: 90%;
+  height: 100%;
+  padding-top: 20px;
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 0.5px solid hsl(0, 4%, 87%);
 }
